@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRODUCT INFORMATION</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    .menu {
+        background-color: aqua;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd; /* Added border */
+    }
+
+    .menu a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .menu a:hover {
+        font-weight: bold;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .invoice-details {
+        margin-bottom: 20px;
+    }
+
+    .invoice-details p {
+        margin: 5px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 2px solid #ddd;
+        padding: 10px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .total {
+        text-align: right;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    hr {
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+<div class="menu">
+    <a href="#description">Description /</a>
+    <a href="#order">Order  /</a>
+    <a href="#findus">Find Us </a>
+</div>
+
+<div class="container">
+    <header>
+        <img src="gamingchair.jpg" width="120" height="100" alt="Product Image">
+        <h3>MATCHSPEL GAMING CHAIR</h3>
+        <p>RM 699.00</p>
+    </header>
+     
+    <hr>
+
+    <!-- Product Description -->
+    <section id="description">
+        <h4>Product Description</h4>
+        <p>MATCHSPEL gaming chair helps you play at the top of your game. The whole body enjoys nice support and you can adjust the height of the chair, neck and armrests to sit really comfy when the game begins.</p>
+    </section>
+
+    <!-- Order Now -->
+    <section id="order">
+        <h4>Order Now</h4>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required><br><br>
+
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Order Now">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+
+    <!-- Find Us -->
+    <section id="findus">
+        <h4>Find Us</h4>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.1872102651478!2d100.4382629747798!3d5.2332642368111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ab7f8c8d8febd%3A0x9b5254e29e148f89!2sIKEA%20Batu%20Kawan!5e0!3m2!1sen!2smy!4v1695829046690!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+        <p><b>Address:</b> 752, Persiaran Cassia Selatan, 8, Lebuhraya Bandar Cassia, 14110 Simpang Ampat, Penang<br> <b>Contact Number:</b> 017-4728469<br><b>Email:</b> krishmita.sree@gmail.com</p>
+    </section>
+</div>
+</body>
+</html>
